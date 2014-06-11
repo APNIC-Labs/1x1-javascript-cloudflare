@@ -1,0 +1,30 @@
+{
+    "name": "1x1-measurement",
+    "description": "A system of network measurements implemented as invisible 1x1 pixel fetches run by labs.apnic.net",
+    "version": "0.1",
+    "category": "analytics",
+    "main": "1x1-module.js",
+    "config":{
+        "details":{
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "None",
+            "TOS":"http://www.cloudflare.com/terms",
+            "has_js": true
+        }, 
+        "assets":{
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            },
+            "detail_page" : [
+                "./public/images/example.png"
+            ],
+            "images" : [
+                "./public/images/counter.png"
+            ]
+        },
+        "interface": [
+        ]
+    },
+}
