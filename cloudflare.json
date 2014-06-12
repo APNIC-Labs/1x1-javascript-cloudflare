@@ -1,5 +1,5 @@
 {
-    "name": "cloudflare-1x1-measurement",
+    "name": "CloudFlare APNIC Measurement",
     "description": "A system of network measurements implemented as invisible 1x1 pixel fetches run by labs.apnic.net",
     "version": "0.8",
     "category": "analytics",
