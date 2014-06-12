@@ -1,7 +1,7 @@
 {
     "name": "CloudFlare APNIC Measurement",
     "description": "A system of network measurements implemented as invisible 1x1 pixel fetches run by labs.apnic.net",
-    "version": "0.8",
+    "version": "0.9",
     "category": "analytics",
     "main": "1x1-module.js",
     "config":{
