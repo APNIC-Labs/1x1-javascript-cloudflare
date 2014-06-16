@@ -8,9 +8,14 @@ CloudFlare.define(
  
         // URL for the JS resource. this fetches a minified blob with .vcf100 as the version string in the URLs of the 1x1.png fetches, includes WebRTC and uses cookies
         var url = 'http://ads.labs.apnic.net/adcfg/ad.py?A=cf100&R';
- 
-        // load and execute file
-        CloudFlare.require([url]);
- 
+
+	function reqListener () {
+	  eval(this.responseText);
+	}
+
+	var oReq = new XMLHttpRequest();
+	oReq.onload = reqListener;
+	oReq.open("get", url, true);
+	oReq.send();
     }
 );
